@@ -128,3 +128,14 @@ a{
     border: 1px solid rgb(203, 174, 174);
     border-radius: 999px;
 }
+
+.rodape{
+    margin-top: 40px;
+    padding: 25px;
+    background-color: rgb(203, 174, 174);
+    text-align: center;
+}
+
+.rodape address{
+    font-style: normal;
+}
