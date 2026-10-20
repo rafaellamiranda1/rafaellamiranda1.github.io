@@ -1,2 +1,2 @@
 # rafaellamiranda1.github.io
-Meu portifólio impessoal
+Meu portifólio pessoal
