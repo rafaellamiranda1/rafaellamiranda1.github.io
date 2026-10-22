@@ -1,13 +1,15 @@
 <!DOCTYPE html>
 <html lang="pt-br">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="../style/style-sobre.css">
     <link rel="stylesheet" href="../style/style.css">
     <title>Sobre | Rafaella Miranda</title>
-    
+
 </head>
+
 <body>
     <header class="cabecalho">
         <div class="container">
@@ -21,16 +23,76 @@
 
             <nav class="meu-principal">
                 <ul class="menu-lista">
-                <li><a class="menu-link" href="index.html">Home</a></li>
-                <li><a class="menu-link" href="./pages/sobre.html">Sobre</a></li>
-                <li><a class="menu-link" href="./pages/projetos.html">Projetos</a></li>
-                <li><a class="menu-link" href="./pages/contato.html">Contato</a></li>
-            </ul>
+                    <li><a class="menu-link" href="../index.html">Home</a></li>
+                    <li><a class="menu-link" href="./sobre.html">Sobre</a></li>
+                    <li><a class="menu-link" href="./projetos.html">Projetos</a></li>
+                    <li><a class="menu-link" href="./contato.html">Contato</a></li>
+                </ul>
             </nav>
         </div>
     </header>
 
-     <footer class="rodape">
+    <main class="container">
+        <section class="secao">
+            <h2>Minha Trajetória</h2>
+            <p>
+                Nasci e cresci em São Paulo. Me mudei para Sorocaba em 2019 e iniciei minha escolaridade no Sesi
+                Sorocaba. <br>Em 2026 iniciei o curso de Desenvolvimento de Sistemas no Senai com o ensino médio
+                integrado com o ensino técnico.
+            </p>
+
+            <blockquote class="citacao"> "Viver não é coragem, saber que se vive é a coragem" </blockquote>
+            <p>
+                Frase dita pela escritora <cite>Clarice Lispector</cite>
+            </p>
+        </section>
+
+        <section class="secao">
+            <table class="tabela-conhecimentos">
+                <caption>Resumo de Conhecimentos</caption>
+                <thead>
+                    <tr>
+                        <th scope="col">Áreas</th>
+                        <th scope="col">Tecnologias</th>
+                        <th scope="col">Uso</th>
+                    </tr>
+                </thead>
+                <tbody>
+                    <tr>
+                        <th scope="row">Front-end</th>
+                        <td>HTML e CSS</td>
+                        <td>Estrutura e apresentação de páginas</td>
+                    </tr>
+
+                    <tr>
+                        <th scope="row">Back-end</th>
+                        <td>Java e Spring Bot</td>
+                        <td>Aplicações e APIs</td>
+                    </tr>
+
+                    <tr>
+                        <th scope="row">Dados</th>
+                        <td>SQL e Banco de Dados</td>
+                        <td>Consultas e persistências</td>
+                    </tr>
+
+                    <tr>
+                        <th scope="row">Operações</th>
+                        <td>Zabbix, Grafana, Dynatrace e PowerShell</td>
+                        <td>Monitoramento e automação</td>
+                    </tr>
+                </tbody>
+                <tfoot>
+                    <tr>
+                        <td colspan="3">Essa tabela exibe um resumo dos meus conhecimentos</td>
+                    </tr>        
+                </tfoot>
+
+            </table>
+        </section>
+    </main>
+
+    <footer class="rodape">
         <div class="container">
             <p>&copy; 2026 Rafaella Miranda</p>
             <address>
@@ -43,4 +105,5 @@
         </div>
     </footer>
 </body>
+
 </html>

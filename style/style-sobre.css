@@ -1,1 +1,30 @@
+.tabela-conhecimentos{
+    width: 100%;
 
+    border-collapse: collapse;
+    background-color: rgb(199, 173, 173);
+
+}
+
+.tabela-conhecimentos caption{
+    margin-bottom: 10px;
+
+    font-weight: bold;
+    text-align: left;
+
+}
+
+.tabela-conhecimentos th,
+.tabela-conhecimentos td{
+    padding: 5px;
+    text-align: left;
+    border: 1px solid rgb(123, 82, 82);
+}
+
+.tabela-conhecimentos thead{
+    background-color: rgb(164, 136, 136);
+}
+
+.tabela-conhecimentos tfoot{
+    background-color: rgb(177, 154, 154);
+}
