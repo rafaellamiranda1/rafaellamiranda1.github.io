@@ -34,6 +34,10 @@ a{
     color: rgb(123, 82, 82);
 }
 
+code, pre{
+    font-family:'Courier New', Courier, monospace;
+}
+
 .container{
     width: 90%;
     max-width: 1000px;
