@@ -1,0 +1,159 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="../style/style-contato.css">
+    <link rel="stylesheet" href="../style/style.css">
+    <title>Contato | Rafaella</title>
+</head>
+
+<body>
+    <header class="cabecalho">
+        <div class="container">
+            <p class="etiqueta">Portifólio</p>
+
+            <h1>Rafaella Miranda</h1>
+
+            <p class="subtitulo">
+                Estudante de Desenvolvimento de Sistemas no Senai
+            </p>
+
+            <nav class="meu-principal">
+                <ul class="menu-lista">
+                    <li><a class="menu-link" href="../index.html">Home</a></li>
+                    <li><a class="menu-link" href="./sobre.html">Sobre</a></li>
+                    <li><a class="menu-link" href="./projetos.html">Projetos</a></li>
+                    <li><a class="menu-link" href="./contato.html">Contato</a></li>
+                </ul>
+            </nav>
+        </div>
+    </header>
+
+    <main class="container">
+        <section class="secao">
+            <h2>Formulário</h2>
+
+            <form class="formulario" action="#" method="post">
+                <fieldset>
+                    <legend>Identificação</legend>
+
+                    <div class="campo-formulario">
+                        <label for="nome">Nome Completo</label>
+                        <input type="text" id="nome" name="nome" placeholder="Digite seu nome completo" minlength="3"
+                            max="80" required>
+                    </div>
+
+                    <div class="campo-formulario">
+                        <label for="email">E-mail</label>
+                        <input type="email" id="email" name="email" placeholder="email@exemplo.com.br" required>
+                    </div>
+
+                    <div class="campo-formulario">
+                        <label for="telefone">Telefone</label>
+                        <input type="tel" id="telefone" name="telefone">
+                    </div>
+
+                    <div class="campo-formulario">
+                        <label for="site">Site ou Linkedin</label>
+                        <input type="url" id="site" name="site" placeholder="https://">
+                    </div>
+                </fieldset>
+
+                <fieldset>
+                    <legend>Sobre o Contato</legend>
+
+                    <div class="campo-formulario">
+                        <label for="assunto">Assunto:</label>
+
+                        <select name="assunto" id="assunto" required>
+                            <option value="">Selecione</option>
+                            <option value="projeto">Projeto</option>
+                            <option value="oprtunidade">Oportunidade</option>
+                            <option value="educacao">Educação</option>
+                            <option value="outro">Outro</option>
+                        </select>
+                    </div>
+
+                    <div class="campo-formulario">
+                        <label for="empresa">Empresa:</label>
+
+                        <input type="text" id="empresa" name="empresa" list="empresa-sugeridas">
+
+                        <details id="empresa-sugeridas">
+                            <option value="Empresa de Tecnologia">
+                            <option value="Instituição de Ensino">
+                            <option value="Consultoria">
+                        </details>
+                    </div>
+
+                    <p>Tipo de Contato</p>
+                    <input type="radio" id="profissional" name="tipo-contato" value="profissional">
+                    <label for="profissional">Profissional</label>
+                    <input type="radio" name="tipo-contato" id="academico" value="academico">
+
+                    <label for="academico">Acadêmico</label>
+                </fieldset>
+                
+                <fieldset>
+                    <legend>Preferências</legend>
+
+                    <div class="campo-formulario">
+                        <label for="data">Data preferida para retorno:</label>
+                        <input type="date" name="data" id="data">
+                    </div>
+
+                    <div class="campo-formulario">
+                        <label for="horario">Horario preferido: </label>
+                        <input type="time" name="horario" id="horario">
+                    </div>
+
+                    <div class="campo-formulario">
+                        <label for="urgencia">Urgênia de a 1 a 5</label>
+                        <input type="range" id="urgencia" name="urgencia" min="1" max="5" value="1">
+                    </div>
+
+                    <div class="campo-formulario">
+                        <label for="cor">Escolha a cor:</label>
+                        <input type="color" name="cor" id="cor" value="#2563ff">
+                    </div>
+
+                    <div class="campo-formulario">
+                        <label for="arquivo">Anexar arquivo: </label>
+                        <input type="text" id="arquivo" name="arquivo" accept=".pdf, .doc, .docx">
+                    </div>
+                </fieldset>
+
+                <fieldset>
+                    <legend>Mensagem:</legend>
+
+                    <div class="campo-formulario">
+                        <label for="mensagem">Escreva sua mensagem:</label>
+                        <textarea name="mensagem" id="mensagem" rows="8" minlength="10" maxlength="1000" placeholder="Escreva aqui..." required></textarea>
+                    </div>
+                </fieldset>
+                <div class="acoes-formulario">
+                    <button type="submit">Enviar</button>
+                    <button type="reset">Limpar</button>
+                </div>
+            </form>
+        </section>
+
+    </main>
+
+    <footer class="rodape">
+        <div class="container">
+            <p>&copy; 2026 Rafaella Miranda</p>
+            <address>
+                <a href="mailto:rafaellamiranda526@gmail.com">Email</a>
+                <span> | </span>
+                <a href="tel:+5515991224211">Telefone</a>
+                <span> | </span>
+                <a href="https://github.com/rafaellamiranda1" target="_blank">GitHub</a>
+            </address>
+        </div>
+    </footer>
+</body>
+
+</html>
