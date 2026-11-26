@@ -2,60 +2,61 @@
     box-sizing: border-box;
 }
 
-body{
+body {
     margin: 0;
 
     background-color: rgb(221, 200, 200);
-    color:rgb(123, 82, 82);
-    font-family:Arial, Helvetica, sans-serif;
+    color: rgb(123, 82, 82);
+    font-family: Arial, Helvetica, sans-serif;
     font-size: 16px;
     line-height: 1.6;
 }
 
-h1, h2, h3{
-    color:rgb(117, 93, 93);
+h1,
+h2,
+h3 {
+    color: ;
 }
 
-h1{
+h1 {
     font-size: 38px;
     margin-bottom: 10px;
     text-align: center;
 }
 
-h2{
-    font-size: 26px;    
+h2 {
+    font-size: 26px;
 }
 
-h3{
+h3 {
     font-size: 20px;
 }
 
-a{
+a {
     color: rgb(123, 82, 82);
 }
 
-code, pre{
-    font-family:'Courier New', Courier, monospace;
+code,
+pre {
+    font-family: 'Courier New', Courier, monospace;
 }
 
-.container{
+.container {
     width: 90%;
     max-width: 1000px;
     margin: 0 auto;
 }
 
-.cabecalho{
-    background-color:rgb(118, 88, 88);
-    color: rgb(248, 230, 230);
-
+.cabecalho {
+background-color: #E63763;
     padding: 30px 50px 50px 50px;
 }
 
-.cabecalho h1{
-    color:rgb(248, 230, 230);
+.cabecalho h1 {
+    color:;
 }
 
-.etiqueta{
+.etiqueta {
     margin-bottom: 5px;
     color: rgb(248, 230, 230);
     font-size: 15px;
@@ -64,25 +65,24 @@ code, pre{
     text-align: center;
 }
 
-.subtitulo{
-    /* max-width: 700px; */
+.subtitulo {
     text-align: center;
 }
 
-.menu-lista{
+.menu-lista {
     margin: 20px 0 0;
     padding: 0;
-    list-style:none;
+    list-style: none;
     text-align: center;
 }
 
-.menu-lista li{
+.menu-lista li {
     display: inline;
     margin-right: 8px;
     margin-bottom: 8px;
 }
 
-.menu-link{
+.menu-link {
     display: inline-block;
     padding: 8px 12px;
     background-color: rgb(248, 230, 230);
@@ -95,27 +95,29 @@ code, pre{
 .secao {
     padding: 72px;
 }
-.titulo-secao{
+
+.titulo-secao {
     margin-bottom: 32px;
     padding-left: 12px;
     border-left: 5px solid rgb(123, 82, 82);
     border-radius: 5px;
-   
+
 }
 
-.grade-cards{
+.grade-cards {
     display: grid;
-    gap:24px
+    gap: 24px
 }
-.card{
+
+.card {
     padding: 24px;
     background-color: rgb(230, 217, 217);
     border: 1px solid rgb(203, 174, 174);
     border-radius: 10px;
-    box-shadow: 0 10px  20px rgba(20, 45, 70, 0.08);
+    box-shadow: 0 10px 20px rgba(20, 45, 70, 0.08);
 }
 
-.lista-tecnologias{
+.lista-tecnologias {
     display: inline-block;
     gap: 12px;
     list-style: none;
@@ -125,7 +127,7 @@ code, pre{
 }
 
 
-.lista-tecnologias li{
+.lista-tecnologias li {
     padding: 10px 14px;
     background-color: rgb(230, 217, 217);
     display: inline-block;
@@ -133,13 +135,13 @@ code, pre{
     border-radius: 999px;
 }
 
-.rodape{
+.rodape {
     margin-top: 40px;
     padding: 25px;
     background-color: rgb(203, 174, 174);
     text-align: center;
 }
 
-.rodape address{
+.rodape address {
     font-style: normal;
 }
